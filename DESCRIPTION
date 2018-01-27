@@ -1,0 +1,17 @@
+Package: LSBP
+Type: Package
+Title: Dependent Logit Stick-Breaking Process
+Version: 0.0.3
+Date: 2017-09-07
+Author: Blinded Manuscript
+Maintainer: Blinded Manuscript <blinded@manuscript.com>
+Description: Posterior inference for the Logit Stick-breaking Process.
+License: GPL-2
+LazyData: TRUE
+Imports:
+    Rcpp (>= 0.12.9),
+    Formula,
+    cluster,
+    BayesLogit
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 6.0.1
